@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>V Mind - Professional Counselling</title>
+    <link rel="icon" href="../Logo/BRAIN.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="flex items-center space-x-2">
+                <span class="font-bold text-2xl text-gray-900">V Mind</span>
+            </a>
+            <div class="hidden md:flex space-x-6 items-center">
+                <a href="#services" class="text-gray-600 hover:text-gray-900 transition-colors duration-200">Services</a>
+                <a href="#about" class="text-gray-600 hover:text-gray-900 transition-colors duration-200">About Us</a>
+                <a href="#our-expert" class="text-gray-600 hover:text-gray-900 transition-colors duration-200">Our Expert</a>
+                <a href="#contact" class="px-4 py-2 bg-indigo-600 text-white rounded-full hover:bg-indigo-700 transition-colors duration-200">Book Now</a>
+            </div>
+            <div class="md:hidden">
+                <button id="menu-button" class="text-gray-600 focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+            </div>
+        </nav>
+        <div id="mobile-menu" class="hidden md:hidden bg-white shadow-lg py-2">
+            <a href="#services" class="block px-6 py-2 text-gray-800 hover:bg-gray-100">Services</a>
+            <a href="#about" class="block px-6 py-2 text-gray-800 hover:bg-gray-100">About Us</a>
+            <a href="#our-expert" class="block px-6 py-2 text-gray-800 hover:bg-gray-100">Our Expert</a>
+            <a href="#contact" class="block px-6 py-2 text-gray-800 hover:bg-gray-100">Book Now</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="bg-gray-100 py-20 md:py-32 px-6">
+            <div class="container mx-auto flex flex-col md:flex-row items-center justify-between">
+                <div class="md:w-1/2 text-center md:text-left mb-10 md:mb-0">
+                    <h1 class="text-4xl md:text-6xl font-extrabold leading-tight text-gray-900 mb-4">
+                        Transforming Lives with <br>
+                        <span class="text-gradient">Professional Counselling</span>
+                    </h1>
+                    <p class="text-lg md:text-xl text-gray-600 mb-8 max-w-lg mx-auto md:mx-0">
+                        Empowering individuals and couples to overcome challenges and achieve mental wellness with expert guidance.
+                    </p>
+                    
+                    <a href="#contact" class="px-8 py-4 bg-indigo-600 text-white font-semibold rounded-full hover:bg-indigo-700 transition-all duration-300 transform hover:scale-105 inline-block shadow-lg">Book a Session</a>
+                </div>
+                <div class="md:w-1/2 flex justify-center md:justify-end">
+                    <img src="/Logo/Main_logo.jpeg" alt="Professional Counsellor" class="w-full md:max-w-md rounded-3xl shadow-2xl">
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="py-20 px-6">
+            <div class="container mx-auto text-center">
+                <span class="text-indigo-600 text-lg font-semibold uppercase">About V Mind</span>
+                <h2 class="text-4xl font-bold text-gray-900 mb-6">Our Mission & Approach</h2>
+                <p class="text-gray-600 max-w-3xl mx-auto text-lg leading-relaxed">
+                    V Mind is dedicated to providing compassionate and professional counselling services. We believe in a personalized, evidence-based approach to help our clients navigate life's complexities, heal from past traumas, and develop a resilient mindset for a fulfilling future. Our certified professionals are here to support your journey towards mental wellness.
+                </p>
+            </div>
+        </section>
+        
+        <section id="our-expert" class="py-20 px-6 bg-gray-50">
+            <div class="container mx-auto text-center mb-12">
+                <span class="text-indigo-600 text-lg font-semibold uppercase">Meet Our Expert</span>
+                <h2 class="text-4xl font-bold text-gray-900 mt-2">Ranjini | Founder</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto text-lg mt-4">
+                    With over a decade of experience in individual and couple counselling, Ranjini specializes in trust rebuilding therapy and holistic mental health approaches. Her empathetic and client-centered methods have transformed countless lives.
+                </p>
+            </div>
+            <main class="w-full flex-grow flex items-center justify-center">
+                <div class="card-container relative w-full max-w-sm mx-auto my-8 md:my-0">
+                    <div class="card bg-white rounded-3xl shadow-2xl overflow-hidden transition-all duration-500 ease-in-out hover:shadow-indigo-500/50 group">
+                        <div class="p-6 md:p-8 flex flex-col items-center text-center">
+                            <div class="relative w-32 h-32 md:w-40 md:h-40 mb-6 border-4 border-indigo-500 rounded-full overflow-hidden transition-all duration-500 group-hover:scale-105">
+                                <img src="/Logo/profection.jpg" alt="Sister's Profile" class="w-full h-full object-cover">
+                            </div>
+                            <h2 class="text-3xl font-bold text-gray-900 mb-2">Ranjini</h2>
+                            <p class="text-md text-gray-600 mb-4">Personal counsellor</p>
+                            <div class="flex space-x-4 mb-4">
+                                <a href="https://www.instagram.com/ranjinivijith_family_therapist?utm_source=ig_web_button_share_sheet&igsh=bmlvaG81aWt3Z2E2" class="text-gray-400 hover:text-indigo-600 transition-colors duration-300" target="_blank">
+                                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M21 8.25c0-1.843-1.47-3.25-3.25-3.25h-9.5c-1.78 0-3.25 1.407-3.25 3.25v9.5c0 1.78 1.47 3.25 3.25 3.25h9.5c1.78 0 3.25-1.47 3.25-3.25V8.25zm-2.25 9.25c0 .96-.79 1.75-1.75 1.75h-9.5c-.96 0-1.75-.79-1.75-1.75v-9.5c0-.96.79-1.75 1.75-1.75h9.5c.96 0 1.75.79 1.75 1.75v9.5z" clip-rule="evenodd" /><path d="M12 15a3 3 0 100-6 3 3 0 000 6z" /><circle cx="17.25" cy="6.75" r="1.5" /></svg>
+                                </a>
+                                <a href="https://www.facebook.com/profile.php?id=100007780932306&ref=_ig_profile_ac" class="text-gray-400 hover:text-indigo-600 transition-colors duration-300" target="_blank">
+                                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.991 3.614 9.155 8.356 9.878V14.5h-2.92v-2.5h2.92v-2.12c0-2.887 1.76-4.47 4.34-4.47a20.06 20.06 0 012.55.136v2.99h-1.78c-1.41 0-1.68 1.05-1.68 1.656v2.134h3.33l-.53 3.5h-2.8v7.378C18.386 21.155 22 16.991 22 12c0-5.523-4.477-10-10-10z" /></svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-details max-h-0 bg-gray-50 overflow-hidden transition-all duration-500 ease-in-out p-6 rounded-b-3xl">
+                            <p class="text-sm text-gray-600 mb-4">
+                                Ranjini is a dedicated and compassionate consultant psychologist with a Master's in Clinical Psychology and a certification as a family therapist. With a specialization in therapeutic modalities such as CBT, DBT, EFT, and FT, she is committed to helping individuals and couples navigate the complexities of their lives. Her expertise includes couple and family counseling, trust and breakup therapy, sex therapy, and bystander counseling. Ranjini's goal is to provide a safe and non-judgmental space where clients can explore their emotions, overcome challenges, and build a more resilient mindset. She also offers professional training and supervision for aspiring counselors.
+                            </p>
+                            <div class="text-xs text-gray-500">
+                                <p><strong>Location:</strong>ABCDEF</p>
+                                <p><strong>Joined:</strong> January xxx</p>
+                                <p><strong>Contact:</strong> example.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </section>
+    
+        <section id="services" class="bg-white py-20 px-6">
+            <div class="container mx-auto">
+                <span class="text-indigo-600 text-lg font-semibold uppercase block text-center">Our Services</span>
+                <h2 class="text-4xl font-bold text-gray-900 mb-12 text-center">Your Path to Wellness</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="bg-gray-100 p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300">
+                        <div class="flex items-center justify-center w-16 h-16 bg-indigo-100 rounded-full mx-auto mb-4">
+                            <!--<svg class="w-8 h-8 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path></svg>-->
+                        </div>
+                        <h3 class="text-xl font-semibold text-center text-gray-900 mb-2">Individual Counselling</h3>
+                        <p class="text-gray-600 text-center mb-4">
+                            Personalized therapeutic approaches for managing stress, anxiety, depression, and personal growth.
+                        </p>
+                        <button class="w-full bg-gray-200 text-gray-700 py-3 rounded-xl font-semibold hover:bg-indigo-600 hover:text-white transition-colors duration-200 service-book-btn" data-service="Individual Counselling">Book Now</button>
+                    </div>
+                    <div class="bg-gray-100 p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300">
+                        <div class="flex items-center justify-center w-16 h-16 bg-indigo-100 rounded-full mx-auto mb-4">
+                            <!--<svg class="w-8 h-8 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm6-6v3m-2 0h-1m2 0h-1m2-3v3m-2-3h-1m2-3v3m-2-3h-1"></path></svg>-->
+                        </div>
+                        <h3 class="text-xl font-semibold text-center text-gray-900 mb-2">Couple Counselling</h3>
+                        <p class="text-gray-600 text-center mb-4">
+                            Rebuild trust, improve communication, and resolve conflicts for a stronger, healthier relationship.
+                        </p>
+                        <button class="w-full bg-gray-200 text-gray-700 py-3 rounded-xl font-semibold hover:bg-indigo-600 hover:text-white transition-colors duration-200 service-book-btn" data-service="Couple Counselling">Book Now</button>
+                    </div>
+                    <div class="bg-gray-100 p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300">
+                        <div class="flex items-center justify-center w-16 h-16 bg-indigo-100 rounded-full mx-auto mb-4">
+                            <!--<svg class="w-8 h-8 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m-6 3a9 9 0 11-5.636-9.636M12 11V3a9 9 0 00-9 9m9 0a9 9 0 009 9m-9-9h-1m-4 0h-1m-4 0h-1"></path></svg>-->
+                        </div>
+                        <h3 class="text-xl font-semibold text-center text-gray-900 mb-2">Trust Rebuilding Therapy</h3>
+                        <p class="text-gray-600 text-center mb-4">
+                            Specialized therapy to help individuals and couples navigate the complex process of restoring trust after a breach.
+                        </p>
+                        <button class="w-full bg-gray-200 text-gray-700 py-3 rounded-xl font-semibold hover:bg-indigo-600 hover:text-white transition-colors duration-200 service-book-btn" data-service="Trust Rebuilding Therapy">Book Now</button>
+                    </div>
+                    <div class="bg-gray-100 p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300">
+                        <div class="flex items-center justify-center w-16 h-16 bg-indigo-100 rounded-full mx-auto mb-4">
+                            <!--<svg class="w-8 h-8 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17v-4a2 2 0 012-2h2a2 2 0 012 2v4m-3-3V7a3 3 0 013-3h1a3 3 0 013 3v2a3 3 0 01-3 3h-1a3 3 0 01-3-3z"></path></svg>-->
+                        </div>
+                        <h3 class="text-xl font-semibold text-center text-gray-900 mb-2">Stress & Anxiety Management</h3>
+                        <p class="text-gray-600 text-center mb-4">
+                            Learn effective coping mechanisms and strategies to manage stress and anxiety in your daily life.
+                        </p>
+                        <button class="w-full bg-gray-200 text-gray-700 py-3 rounded-xl font-semibold hover:bg-indigo-600 hover:text-white transition-colors duration-200 service-book-btn" data-service="Stress & Anxiety Management">Book Now</button>
+                    </div>
+                    <div class="bg-gray-100 p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300">
+                        <div class="flex items-center justify-center w-16 h-16 bg-indigo-100 rounded-full mx-auto mb-4">
+                            <!--<svg class="w-8 h-8 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>-->
+                        </div>
+                        <h3 class="text-xl font-semibold text-center text-gray-900 mb-2">Depression Management</h3>
+                        <p class="text-gray-600 text-center mb-4">
+                            Compassionate and effective support to help you understand and navigate the challenges of depression.
+                        </p>
+                        <button class="w-full bg-gray-200 text-gray-700 py-3 rounded-xl font-semibold hover:bg-indigo-600 hover:text-white transition-colors duration-200 service-book-btn" data-service="Depression Counselling">Book Now</button>
+                    </div>
+                    <div class="bg-gray-100 p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300">
+                        <div class="flex items-center justify-center w-16 h-16 bg-indigo-100 rounded-full mx-auto mb-4">
+                            <!--<svg class="w-8 h-8 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>-->
+                        </div>
+                        <h3 class="text-xl font-semibold text-center text-gray-900 mb-2">Sex Therapy & Porn addition counseling</h3>
+                        <p class="text-gray-600 text-center mb-4">
+                            Supportive guidance to overcome challenges with sex and porn addiction.
+                        </p>
+                        <button class="w-full bg-gray-200 text-gray-700 py-3 rounded-xl font-semibold hover:bg-indigo-600 hover:text-white transition-colors duration-200 service-book-btn" data-service="Depression Counselling">Book Now</button>
+                    </div>
+                    <div class="bg-gray-100 p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300">
+                        <div class="flex items-center justify-center w-16 h-16 bg-indigo-100 rounded-full mx-auto mb-4">
+                            <!--<svg class="w-8 h-8 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>-->
+                        </div>
+                        <h3 class="text-xl font-semibold text-center text-gray-900 mb-2">Relationship addition counselling</h3>
+                        <p class="text-gray-600 text-center mb-4">
+                            Supportive guidance to overcome challenges with unhealthy relationship patterns.
+                        </p>
+                        <button class="w-full bg-gray-200 text-gray-700 py-3 rounded-xl font-semibold hover:bg-indigo-600 hover:text-white transition-colors duration-200 service-book-btn" data-service="Depression Counselling">Book Now</button>
+                    </div>
+                    <div class="bg-gray-100 p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300">
+                        <div class="flex items-center justify-center w-16 h-16 bg-indigo-100 rounded-full mx-auto mb-4">
+                            <!--<svg class="w-8 h-8 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>-->
+                        </div>
+                        <h3 class="text-xl font-semibold text-center text-gray-900 mb-2">Book now for 2 day live couple Therapy workshop</h3>
+                        <p class="text-gray-600 text-center mb-4">
+                           
+                        </p>
+                        <button class="w-full bg-gray-200 text-gray-700 py-3 rounded-xl font-semibold hover:bg-indigo-600 hover:text-white transition-colors duration-200 service-book-btn" data-service="Depression Counselling">Book Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="py-20 px-6">
+            <div class="container mx-auto">
+                <div id="booking-container" class="bg-white p-8 md:p-12 rounded-2xl shadow-2xl max-w-4xl mx-auto">
+                    <h2 class="text-4xl font-bold text-center text-gray-900 mb-4">Book Your Session</h2>
+                    <p class="text-center text-gray-600 mb-8">
+                        Fill out the form below to request a session. We'll confirm the exact time via WhatsApp.
+                    </p>
+                    <form id="booking-form" class="space-y-6">
+                        <div>
+                            <label for="name" class="block text-gray-700 font-medium mb-1">Full Name</label>
+                            <input type="text" id="name" name="name" required class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-500 transition-shadow">
+                        </div>
+                        <div>
+                            <label for="email" class="block text-gray-700 font-medium mb-1">Email Address</label>
+                            <input type="email" id="email" name="email" required class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-500 transition-shadow">
+                        </div>
+                        <div>
+                            <label for="phone" class="block text-gray-700 font-medium mb-1">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" required class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-500 transition-shadow">
+                        </div>
+                        <div>
+                            <label for="service" class="block text-gray-700 font-medium mb-1">Select Service</label>
+                            <select id="service" name="service" required class="w-full px-4 py-3 rounded-xl border border-gray-300 bg-white focus:outline-none focus:ring-2 focus:ring-indigo-500 transition-shadow">
+                                <option value="" disabled selected>Choose a service...</option>
+                                <option value="Individual Counselling">Individual Counselling</option>
+                                <option value="Couple Counselling">Couple Counselling</option>
+                                <option value="Trust Rebuilding Therapy">TRUST REBUILDING THERAPY</option>
+                                <option value="Stress, Anxiety, Depression">Stress, Anxiety, Depression</option>
+                                <option>Relationship addition counseling</option>
+                                <option>Sex Therapy & porn addition counseling</option>
+                                <option>Couple Therapy workshop</option>
+                            </select>
+                            </div>
+                        
+                        <div>
+                            <label class="block text-gray-700 font-medium mb-1">Session Preference</label>
+                            <div class="flex items-center space-x-4">
+                                <label class="inline-flex items-center">
+                                    <input type="radio" name="session-type" value="Online" class="form-radio text-indigo-600" checked>
+                                    <span class="ml-2 text-gray-700">Online Session</span>
+                                </label>
+                                <label class="inline-flex items-center">
+                                    <input type="radio" name="session-type" value="Offline" class="form-radio text-indigo-600">
+                                    <span class="ml-2 text-gray-700">Offline Session</span>
+                                </label>
+                            </div>
+                            <p class="text-sm text-gray-500 mt-2 p-2 bg-indigo-50 rounded-lg">
+                                **Online Time**: 8 am to 9 pm | **Offline Time**: 9 am to 5 pm
+                            </p>
+                        </div>
+                        
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div>
+                                <label for="date" class="block text-gray-700 font-medium mb-1">Preferred Date</label>
+                                <input type="date" id="date" name="date" required class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-500 transition-shadow">
+                            </div>
+                            <div>
+                                <label for="requested-time" class="block text-gray-700 font-medium mb-1">Requested Time</label>
+                                <input type="time" id="requested-time" name="requested-time" required class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-500 transition-shadow">
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <label for="message" class="block text-gray-700 font-medium mb-1">Your Message (Optional)</label>
+                            <textarea id="message" name="message" rows="4" class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-500 transition-shadow"></textarea>
+                        </div>
+                        <button type="submit" id="submit-booking-btn" class="w-full bg-indigo-600 text-white py-4 rounded-xl font-semibold hover:bg-indigo-700 transition-colors duration-200">Submit Booking</button>
+                    </form>
+                    <div id="booking-success-message" class="text-center space-y-4 p-8 hidden">
+                        <div class="checkmark-container mx-auto">
+                            <svg class="w-full h-full" viewBox="0 0 52 52">
+                                <circle class="checkmark-circle" cx="26" cy="26" r="25" fill="none"/>
+                                <path class="checkmark-check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/>
+                            </svg>
+                        </div>
+                        <h2 class="text-3xl font-bold text-gray-900">Booking Complete!</h2>
+                        <p class="text-gray-600 max-w-md mx-auto">
+                            Thank you for your booking. Please share the details with us on WhatsApp to confirm your session.
+                        </p>
+                        <button id="whatsapp-share-btn" class="px-6 py-3 mt-4 bg-green-600 text-white rounded-xl font-semibold hover:bg-green-700 transition-colors duration-200">
+                            Share Details on WhatsApp
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+
+    <footer class="bg-gray-900 text-gray-300 py-12 px-6">
+        <div class="container mx-auto text-center">
+            <div class="mb-6">
+                <span class="font-bold text-xl text-white">V Mind</span>
+                <p class="text-sm mt-2">© 2024 V Mind. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
